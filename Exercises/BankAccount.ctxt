@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=passCode\ startBalance\ card
+comment0.target=BankAccount(java.lang.String,\ int,\ CashCard)
+comment0.text=\n\ Creates\ a\ new\ BankAccount\ object\n\ @param\ passCode\ the\ password\ of\ the\ account\n\ @param\ startBalance\ the\ starting\ balance\n\ @param\ card\ the\ card\ associated\ with\ the\ account\n
+comment1.params=
+comment1.target=CashCard\ getCard()
+comment1.text=\n\ Gets\ the\ bank\ account's\ cash\ card\n\ @return\ the\ cash\ card\n
+comment2.params=
+comment2.target=java.lang.String\ getPasscode()
+comment2.text=\n\ Gets\ the\ password\n\ @return\ the\ password\n
+comment3.params=
+comment3.target=int\ getBalance()
+comment3.text=\n\ Gets\ the\ account\ balance\n\ @return\ the\ balance\n
+comment4.params=amtWithdraw
+comment4.target=void\ updateBalance(int)
+comment4.text=\n\ updates\ the\ balance\ after\ withdrawals\n\ @param\ amtWithdraw\ the\ amount\ you\ withdrew\n
+comment5.params=action
+comment5.target=void\ log(java.lang.String)
+comment5.text=\n\ Logs\ the\ users\ withdrawal\ actions\n\ @param\ action\ the\ amount\ withdrew\ in\ a\ transaction\n
+comment6.params=
+comment6.target=java.lang.String\ getLog()
+comment6.text=\n\ Returns\ a\ record\ of\ the\ user's\ withdrawals\n\ @return\ the\ log\n
+numComments=7

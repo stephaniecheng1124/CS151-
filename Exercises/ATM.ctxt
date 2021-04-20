@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=bankAorB\ identity
+comment0.target=ATM(Bank,\ java.lang.String)
+comment0.text=\n\ Constructs\ a\ new\ ATM\ object\n\ @param\ bankAorB\ the\ Bank\ object\ that\ the\ ATM\ is\ connected\ to\n\ @param\ identity\ letter\ of\ the\ bank\ it\ belongs\ to\n
+comment1.params=identity\ cardNum\ cardDate
+comment1.target=boolean\ isValid(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Checks\ whether\ or\ not\ a\ bankID\ is\ valid\n\ @param\ identity\ letter\ of\ bank\ current\ ATM\ belongs\ to\n\ @param\ cardNum\ the\ bank\ number\ associated\ with\ the\ card\n\ @param\ cardDate\ the\ expiration\ date\ of\ the\ card\n\ @return\ true\ if\ valid,\ false\ if\ invalid\n
+comment2.params=today\ cardDate
+comment2.target=boolean\ isExpired(java.lang.String,\ java.lang.String)
+comment2.text=\n\ Checks\ to\ see\ if\ the\ card\ is\ expired\n\ @param\ today\ today's\ date\n\ @param\ cardDate\ expiration\ date\ of\ the\ card\n\ @return\ true\ if\ expired,\ false\ if\ not\ expired\n
+comment3.params=password\ accountNum
+comment3.target=boolean\ verifyPassword(java.lang.String,\ java.lang.String)
+comment3.text=\n\ Checks\ whether\ or\ not\ the\ password\ is\ correct\n\ @param\ password\ the\ password\ that\ the\ user\ enters\n\ @param\ accountNum\ the\ account\ number\ associated\ with\ the\ cash\ card\n\ @return\ true\ id\ password\ is\ correct,\ false\ if\ wrong\ password\n
+comment4.params=withdrawAmt
+comment4.target=boolean\ checkIfExceeds(int)
+comment4.text=\n\ Checks\ if\ the\ maximum\ withdrawal\ amount\ per\ transaction\ will\ be\ exceeded\n\ @param\ withdrawAmt\ the\ amount\ the\ user\ is\ planning\ to\ withdraw\n\ @return\ true\ if\ the\ max\ is\ exceeded,\ false\ if\ not\ exceeded\n
+comment5.params=accountNum\ withdrawAmt
+comment5.target=boolean\ checkBalanceEnough(java.lang.String,\ int)
+comment5.text=\n\ Checks\ to\ see\ if\ there\ is\ enough\ money\ in\ the\ account\ to\ withdraw\n\ @param\ accountNum\ the\ account\ number\ associated\ with\ the\ card\n\ @param\ withdrawAmt\ the\ amount\ the\ user\ is\ planning\ to\ withdraw\n\ @return\ true\ if\ there\ is\ enough,\ false\ if\ there\ is\ not\ enough\ money\ for\ the\ withdrawal\ to\ be\ made\n
+comment6.params=accountNum\ amount
+comment6.target=void\ Withdraw(java.lang.String,\ int)
+comment6.text=\n\ Withdraws\ the\ amount\ of\ money\n\ @param\ accountNum\ the\ account\ number\ associated\ with\ the\ card\n\ @param\ amount\ the\ amount\ the\ user\ is\ planning\ to\ withdraw\n
+numComments=7

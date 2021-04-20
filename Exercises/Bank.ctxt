@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bank()
+comment0.text=\n\ Constructs\ a\ new\ bank\n
+comment1.params=name\ accountNum
+comment1.target=void\ addCustomer(Customer,\ java.lang.String)
+comment1.text=\n\ Adds\ a\ new\ customer\ to\ the\ bank\n\ @param\ name\ the\ name\ of\ the\ customer\n\ @param\ accountNum\ the\ Customer's\ account\ number\n
+comment2.params=accountNum
+comment2.target=Customer\ getCustomer(java.lang.String)
+comment2.text=\n\ Gets\ the\ selected\ customer\n\ @param\ accountNum\ the\ customer's\ account\ number\n\ @return\ the\ Customer\n
+comment3.params=accountNum
+comment3.target=boolean\ accountExists(java.lang.String)
+comment3.text=\n\ Checks\ to\ see\ if\ the\ account\ exists\n\ @param\ accountNum\ the\ account\ number\ associated\ with\ the\ card\n\ @return\ true\ if\ the\ account\ exists,\ false\ if\ it\ doesn't\n
+numComments=4

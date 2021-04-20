@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=account
+comment0.target=Customer(BankAccount)
+comment0.text=\n\ Creates\ a\ new\ Customer\n\ @param\ account\ the\ account\ number\ of\ the\ bank\n
+comment1.params=
+comment1.target=BankAccount\ getBankAccount()
+comment1.text=\n\ Gets\ the\ customer's\ bank\ account\n\ @return\ the\ bank\ account\n
+numComments=2
